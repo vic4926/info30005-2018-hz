@@ -1,0 +1,214 @@
+html, body {
+	padding:0 0 0 0;
+	margin:0 0 0 0;
+	height: 100%;
+	width: 100%;
+	font-family: pictos;
+    src:url("../fonts/ziti1.otf");
+	color:#ffffff;
+	font-size:14px;
+	font-weight:300;
+	background:none;
+	display:inline-table;
+}
+a, a:hover, a:active, a:visited, a:link {
+    outline:none;
+    transition: all 0.5s ease 0s;
+    -webkit-transition: all 0.5s ease 0s;
+    -moz-transition: all 0.5s ease 0s;
+	color:#ffffff;
+}
+p {
+	padding:0 0 0 0;
+	margin:15px 0 0 0;
+}
+
+/* ================= Main Content Area ================= */
+
+.main-container {
+	background-color:rgba(0,0,0,0.5);
+	z-index:200;
+}
+
+/* Preloader */
+
+#preloader {
+    background-color: #FFFFFF;
+    bottom: 0;
+    height: 100%;
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 10000;
+}
+#loader {
+    background-image: url("../img/bx_loader.gif");
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 200px;
+    left: 50%;
+    margin: -100px 0 0 -100px;
+    position: absolute;
+    top: 50%;
+    width: 200px;
+}
+
+#logo {
+	height: 200px;
+	width: 200px;
+	position: absolute;
+	margin: 5px 5px 0;
+}
+
+/* FlexSlider Styles */
+
+.flexslider {
+	padding:0 0 20px 0;
+	margin:100px 0 120px 0;
+	width:100%;
+	text-align:center;
+	overflow:hidden;
+}
+.flexslider h1 {
+	padding:0 0 0 0;
+	margin:0 0 0 0;
+	font-family: 'Lobster', cursive;
+	font-size:70px;
+	color:#ffffff;
+	font-weight:900;
+	text-transform:uppercase;
+}
+
+.flexslider p {
+	font-size:35px;
+	margin-bottom:20px;
+}
+.flexslider form .form-control {
+  height: 45px;
+  width:75%;
+  padding: 12px 24px;
+  border-radius: 0;
+  left:20%;
+	font-size: 18px;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.flexslider form button {
+  height: 45px;
+  border-radius: 0;
+  margin-left: -4px;
+  font-size: 18px;
+}
+/* Social and CountDown */
+
+.countdown-wrapper {
+	padding:40px 0 50px;
+	margin:0 0 0 0;
+}
+.countdown-showcase {
+	text-align:center;
+	font-size:30px;
+	color:#ffffff;
+	font-weight:100;
+	line-height:36px;
+}
+.countdown-showcase span {
+	font-weight:900;
+	color:#ffffff;
+}
+.countdown {
+	padding:0 0 0 0;
+	margin:0 0 0 0;
+	list-style:none;
+	display:inline-table;
+	font-size:14px;
+	line-height:24px;
+	text-align:center;
+	color:#ffffff;
+}
+.countdown span {
+	font-weight:300;
+	font-size:60px;
+	line-height:52px;
+	text-align:center;
+	display:block;
+	color:#ffffff;
+}
+.countdown li {
+	padding:0 20px;
+	margin:0 0 0 0;
+	list-style:none;
+	display:inline-table;	
+	text-align:center;	
+}
+
+/* Footer Area Styles */
+
+.footer {
+	padding:60px 0;
+	margin:0 0 0 0;
+	text-align:center;
+}
+
+/* ================== Media Query ================== */
+
+@media (max-width: 1200px) {	
+	.countdown-showcase {
+		text-align:center;
+	}
+}
+
+@media (max-width: 991px) {
+	.flexslider h1 {
+		font-size:75px;
+	}
+	.flexslider p {
+	font-size:25px;
+	}
+	.countdown-showcase {
+		text-align:center;
+	}
+	.countdown {
+		padding-top:20px;
+	}
+}
+
+@media (max-width: 500px) {
+	.flexslider h1 {
+		font-size:40px;
+	}
+	.flexslider p {
+	font-size:22px;
+	}
+	.flexslider input {
+	text-align:center;
+	}
+}
+
+@media (max-width: 480px) {
+	.flexslider h1 {
+		font-size:45px;
+	}
+	.flexslider p {
+	font-size:16px;
+	}
+	.footer span {
+		display:block;
+	}
+	.flexslider {
+		margin:60px 0;
+	}
+	.countdown-showcase {
+		font-size:24px;
+	}
+	.countdown {
+		font-size:12px;
+	}
+	.countdown span {
+		font-size:30px;
+	}
+	.countdown li {
+		padding:0 10px;
+	}
+}
