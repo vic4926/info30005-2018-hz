@@ -22,6 +22,8 @@
 		$.vegas('slideshow', {
 			backgrounds:[
 				{ src:'img/slide1.jpg', fade:900 },
+				{ src:'img/slide3.jpg', fade:900 },
+				{ src:'img/slide4.jpg', fade:900 },
 				{ src:'img/slide2.jpg', fade:900 }
 			]
 		})
