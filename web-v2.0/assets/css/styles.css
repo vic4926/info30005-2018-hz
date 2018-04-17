@@ -1,0 +1,20 @@
+section#profile-id{
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr 4fr 1fr;
+    grid-template-areas: "bio name upload blank edit";
+    grid-column-gap: 50px;
+    padding: 4em 4em 2em 4em;
+}
+
+div#bio{
+    grid-area: bio;
+}
+div#name{
+    grid-area: name;
+}
+div#add{
+    grid-area: upload;
+}
+div#edit{
+    grid-area: edit;
+}
