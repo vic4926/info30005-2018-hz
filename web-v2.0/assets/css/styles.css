@@ -18,3 +18,10 @@ div#add{
 div#edit{
     grid-area: edit;
 }
+div#your-subject-1{
+    padding: 4em 4em 2em 2em;
+}
+div#your-subject-2{
+    padding: 4em 4em 2em 2em;
+}
+
