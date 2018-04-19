@@ -25,6 +25,47 @@ div#your-subject-2{
     padding: 4em 4em 2em 2em;
 }
 
+
+
+section#discussion-title{
+    background: #337ab7;
+    padding: 2em 0 2em 0;
+}
+
+#discussion-title h2{
+    color: white;
+}
+
+section#discussion-field {
+    margin: 0 auto;
+    width: 65em;
+}
+div#discussion-sort{
+    margin: 0 auto;
+    width: 65em;
+}
+
+div.box{
+    border-width: 6px;
+}
+
+div#discussion-sort{
+    display: grid;
+    grid-template-columns: 2fr 2fr 1fr 5fr;
+    grid-template-areas: "alltopics none sortby category";
+    grid-column-gap: 50px;
+}
+
+div#discussion-all-topics{
+    grid-area: alltopics;
+}
+div#discussion-sort-by{
+    grid-area: sortby;
+}
+div#discussion-category {
+    grid-area: category;
+}
+
 section#person-nav-bar{
     display: grid;
     grid-template-columns: 2fr 2fr 2fr 2fr 2fr 2fr;
@@ -32,6 +73,7 @@ section#person-nav-bar{
     grid-column-gap: 50px;
     padding: 1em 2em 1em 2em;
     font-size: larger;
+>>>>>>> 387df307c628da95eb4cef29c2eb12a275d9ca93
 }
 
 div#person-nav-home{
