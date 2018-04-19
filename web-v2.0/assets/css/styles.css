@@ -25,7 +25,7 @@ div#your-subject-2{
     padding: 4em 4em 2em 2em;
 }
 
-<<<<<<< HEAD
+
 
 section#discussion-title{
     background: #337ab7;
@@ -66,7 +66,6 @@ div#discussion-category {
     grid-area: category;
 }
 
-=======
 section#person-nav-bar{
     display: grid;
     grid-template-columns: 2fr 2fr 2fr 2fr 2fr 2fr;
