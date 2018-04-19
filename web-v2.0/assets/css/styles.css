@@ -88,3 +88,24 @@ div#person-nav-discussion{
 div#person-nav-biography{
     grid-area: biography;
 }
+
+div#topic-comments-sort-by{
+    clear: right;
+}
+
+section#topic-title{
+    background: #337ab7;
+    padding: 2em 0 2em 0;
+}
+
+section#topic-title h2,h3{
+    color:white;
+    font-size: x-large;
+}
+section#topic-section{
+    padding: 1em 0 1em 0;
+}
+#video-play{
+    background: #1E2832;
+    padding: 1em 0 0 0;
+}
