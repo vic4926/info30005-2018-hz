@@ -26,8 +26,11 @@ div#your-subject-2{
 }
 
 section#discussion-title{
-    background: #337ab7;
+    background: #2b542c;
     padding: 2em 0 2em 0;
+}
+section#discussion-sort{
+    padding: 1em 0 1em 0;
 }
 
 #discussion-title h2{
@@ -37,21 +40,17 @@ section#discussion-title{
 section#discussion-field {
     margin: 0 auto;
     width: 65em;
+    padding: 1em 0 0 0;
+}
+section#discussion-field h3{
+    color: #1E2832;
+}
+section#discussion-list{
+    padding: 2em 0 0 0;
 }
 div#discussion-sort{
     margin: 0 auto;
     width: 65em;
-}
-
-/*div.box{*/
-    /*border-width: 6px;*/
-/*}*/
-
-div#discussion-sort{
-    display: grid;
-    grid-template-columns: 2fr 2fr 1fr 5fr;
-    grid-template-areas: "alltopics none sortby category";
-    grid-column-gap: 50px;
 }
 
 section#person-info{
@@ -152,7 +151,7 @@ div#topic-comments-sort-by{
 }
 
 section#topic-title{
-    background: #337ab7;
+    background: #2b542c;
     padding: 2em 0 2em 0;
 }
 
@@ -167,6 +166,7 @@ section#topic-section{
     background: #1E2832;
     padding: 1em 0 0 0;
 }
+<<<<<<< HEAD
 
 h1 {
     margin: 0;
@@ -175,4 +175,11 @@ h1 {
 
 div.title-bar {
     padding-top: 2em;
+=======
+section#video-play-option{
+    padding: 1em 0 2em 0;
+}
+section#join-us{
+    padding: 1em 0 2em 0;
+>>>>>>> 020f7cf02e2c3f3a71315c06dfbc59f7f1269440
 }
