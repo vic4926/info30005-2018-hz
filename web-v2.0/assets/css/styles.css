@@ -25,8 +25,41 @@ div#your-subject-2{
     padding: 4em 4em 2em 2em;
 }
 
-div#wrapper-nav{
-    grid-area: ;
 
+section#discussion-title{
+    background: #337ab7;
+    padding: 2em 0 2em 0;
+}
+#discussion-title h2{
+    color: white;
+}
+section#discussion-field {
+    margin: 0 auto;
+    width: 65em;
+}
+div#discussion-sort{
+    margin: 0 auto;
+    width: 65em;
+}
+
+    div.box{
+        border-width: 6px;
+    }
+
+div#discussion-sort{
+    display: grid;
+    grid-template-columns: 2fr 2fr 1fr 5fr;
+    grid-template-areas: "alltopics none sortby category";
+    grid-column-gap: 50px;
+}
+
+div#discussion-all-topics{
+    grid-area: alltopics;
+}
+div#discussion-sort-by{
+    grid-area: sortby;
+}
+div#discussion-category{
+    grid-area: category;
 }
 
