@@ -25,6 +25,7 @@ div#your-subject-2{
     padding: 4em 4em 2em 2em;
 }
 
+<<<<<<< HEAD
 section#person-nav-bar{
     display: grid;
     grid-template-columns: 2fr 2fr 2fr 2fr 2fr 2fr;
@@ -39,6 +40,37 @@ div#person-nav-home{
 }
 div#person-nav-subjects{
     grid-area: subjects;
+=======
+
+
+section#discussion-title{
+    background: #337ab7;
+    padding: 2em 0 2em 0;
+}
+
+#discussion-title h2{
+    color: white;
+}
+
+section#discussion-field {
+    margin: 0 auto;
+    width: 65em;
+}
+div#discussion-sort{
+    margin: 0 auto;
+    width: 65em;
+}
+
+div.box{
+    border-width: 6px;
+}
+
+div#discussion-sort{
+    display: grid;
+    grid-template-columns: 2fr 2fr 1fr 5fr;
+    grid-template-areas: "alltopics none sortby category";
+    grid-column-gap: 50px;
+>>>>>>> d0456458f2db3d53b01e41dfde8745dd8400172e
 }
 div#person-nav-discussion{
     grid-area: discussion;
@@ -54,6 +86,7 @@ section#person-info{
     grid-template-areas: "none subs vids discus none2";
     padding-top: 2em;
 
+<<<<<<< HEAD
 
 }
 
@@ -107,4 +140,37 @@ div.bio-pic{
 
 div.bio-title {
     margin-left: 2em;
+=======
+div#discussion-all-topics{
+    grid-area: alltopics;
+}
+div#discussion-sort-by{
+    grid-area: sortby;
+}
+div#discussion-category {
+    grid-area: category;
+}
+
+section#person-nav-bar{
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr 2fr 2fr;
+    grid-template-areas: "none home subjects discussion biography none2";
+    grid-column-gap: 50px;
+    padding: 1em 2em 1em 2em;
+    font-size: larger;
+>>>>>>> 387df307c628da95eb4cef29c2eb12a275d9ca93
+}
+
+div#person-nav-home{
+    grid-area: home;
+}
+div#person-nav-subjects{
+    grid-area: subjects;
+}
+div#person-nav-discussion{
+    grid-area: discussion;
+}
+div#person-nav-biography{
+    grid-area: biography;
+>>>>>>> d0456458f2db3d53b01e41dfde8745dd8400172e
 }
